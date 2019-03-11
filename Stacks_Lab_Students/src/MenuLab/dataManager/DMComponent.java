@@ -37,6 +37,14 @@ public class DMComponent {
 			lol.add(nlist); 
 		}
 	}
+	public void deleteList(String name) { 
+		int index = getIndexForList(name); 
+		if (index == -1) 
+			IOComponent.getComponent().output("Non existing list named: " + name + ".\n"); 
+		else { 
+			lol.remove(index);
+		}
+	}
 	
 	/**
 	 * Adds a new element to a particular list.

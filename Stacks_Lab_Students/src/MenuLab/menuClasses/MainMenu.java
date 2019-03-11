@@ -11,6 +11,7 @@ public class MainMenu extends Menu {
 		title = "Main Menu"; 
 		options.add(new Option("Show all Lists", new ShowListsAction())); 
 		options.add(new Option("Create New List", new CreateListAction())); 
+		options.add(new Option("Delete an Existing List", new DeleteListAction()));
 		options.add(new Option("Operations on Lists", new OperateListAction())); 
 		options.add(Option.EXIT); 
 
