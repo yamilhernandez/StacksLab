@@ -1,6 +1,6 @@
-package testers;
+package StacksLab.testers;
 
-import classes.SymmetricStringAnalyzer;
+import StacksLab.classes.SymmetricStringAnalyzer;
 
 public class Tester4 {
 

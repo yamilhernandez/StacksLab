@@ -1,6 +1,6 @@
-package testers;
+package StacksLab.testers;
 
-import classes.SLLStack;
+import StacksLab.classes.SLLStack;
 
 public class Tester1 {
 

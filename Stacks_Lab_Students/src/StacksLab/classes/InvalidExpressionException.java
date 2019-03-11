@@ -1,4 +1,4 @@
-package classes;
+package StacksLab.classes;
 
 public class InvalidExpressionException extends RuntimeException {
 

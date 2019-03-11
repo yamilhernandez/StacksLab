@@ -1,4 +1,4 @@
-package interfaces;
+package StacksLab.interfaces;
 
 
 public interface Stack<E> { 

@@ -1,6 +1,6 @@
-package classes;
+package StacksLab.classes;
 
-import interfaces.Stack;
+import StacksLab.interfaces.Stack;
 
 public class SLLStack<E> implements Stack<E>
 {   
